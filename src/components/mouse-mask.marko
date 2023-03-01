@@ -1,16 +1,12 @@
 <for|i| from=1 to=2>
   <div
-    class=[input.class, i === 1 ? "mouse-mask-base" : "mouse-mask"] 
-    style=`--mouse-x:${state.x}px;--mouse-y:${state.y}px;` 
+    class=[input.class, i === 1 ? "mouse-mask-base" : "mouse-mask"]
+    style=`--mouse-x:${state.x}px;--mouse-y:${state.y}px;`
     on-mousemove("move")>
     <${input.renderBody}/>
-
-    <span class="text-3xl font-bold underline">
-      Hello world!
-    </span>
+    <span.text-3xl.font-bold.underline>Hello world!</span>
   </div>
 </for>
-
 class {
   onCreate() {
     this.state = { x: 0, y: 0 };

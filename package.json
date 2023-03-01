@@ -14,6 +14,7 @@
     "@marko/vite": "^2.3.11",
     "autoprefixer": "^10.4.13",
     "cross-env": "^7.0.3",
+    "cssnano": "^5.1.15",
     "postcss": "^8.4.21",
     "postcss-preset-env": "^7.8.3",
     "rimraf": "^3.0.2",
